@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    box-sizing: border-box;
+}
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* Header Section Start */
+.header-section{
+    box-sizing: border-box;
+}
+.header_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+/* Header Section End */
+/* Bannar Section Start */
+section{
+    box-sizing: border-box;
+}
+.banner-area{
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.banner-header{
+    font-family: 'Playfair Display', serif;
+    color: #094B72;
+    font-weight: 700;
+    font-size: 72px;
+    box-sizing: border-box;
+}
+.banner-text{
+    color: #4F4F4F;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 24px;
+    font-weight: 500;
+    margin: 30px 0;
+    box-sizing: border-box;
+
+}
+.btn,
+.banner-button{
+    background-color: #094B72;
+    text-decoration: none;
+    border: 1px solid #094B72;
+    padding: 20px 15px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.banner-button:hover{
+    color: #ffffff;
+}
+.banner-logo{
+    margin-top: 77px;
+    box-sizing: border-box;
+}
+.b-l-text{
+    color: #8B8C8C;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+.banner-img{
+    max-width: 108%;
+    min-height: 127%;
+    margin-top: -152px;
+    margin-left: -81px;
+    box-sizing: border-box;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner-area{
+        padding-top: 30px;
+    }
+    .banner-img{
+        max-width: 100%;
+        min-height: 100%;
+        margin-top: -80px;
+        margin-left: 0; 
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .banner-area{
+        padding-top: 50px;
+    }
+    .banner-img{
+        max-width: 100%;
+        min-height: 100%;
+        /* margin-top: -90px;
+        margin-left: -81px; */
+        margin: -90px auto 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .banner-area{
+        padding-top: 80px;
+    }
+    .banner-img{
+        max-width: 100%;
+        min-height: 100%;
+        margin: -90px auto 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .banner-area{
+        padding-top: 70px;
+    }
+    .banner-header{
+        font-size: 62px;
+    }
+    .banner-text{
+        font-size: 21px;
+        margin: 27px 0;
+    
+    }
+    .btn,
+    .banner-button{
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .banner-logo{
+        margin-top: 60px;
+    }
+    .b-l-text{
+        font-size: 18px;
+    }
+    .banner-img{
+        max-width: 123%;
+        min-height: 128%;
+        margin-top: -152px;
+        margin-left: -81px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .banner-area{
+        padding-top: 100px;
+    }
+    .banner-header{
+        font-weight: 700;
+        font-size: 72px;
+    }
+    .banner-text{
+        font-size: 24px;
+        margin: 30px 0;
+    
+    }
+    .btn,
+    .banner-button{
+        font-size: 16px;
+    }
+    .banner-button:hover{
+        color: #ffffff;
+    }
+    .banner-logo{
+        margin-top: 77px;
+    }
+    .b-l-text{
+        font-size: 22px;
+    }
+    .banner-img{
+        max-width: 112%;
+        min-height: 125%;
+        margin-top: -152px;
+        margin-left: -81px;
+    }
+}
+/* Banner Section End */
+/* Service Section Start */
+.service-section{
+    background: #F2FCFF;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+.sr-cd-header{
+    color: #2D2F30;
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0.32307693362236023px;
+    text-align: left;
+    box-sizing: border-box;
+}
+.sr-cd-text{
+    
+    color: #8B8C8C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    box-sizing: border-box;
+
+}
+.card{
+    margin-top: 27px;
+    height: 324px;
+    box-sizing: border-box;
+}
+.card img{
+    width: 16%;
+    height: 16%;
+    margin-left: 18px;
+    margin-top: 24px;
+    box-sizing: border-box;
+}
+.card h5{
+    font-family: 'Playfair Display', serif;
+    color: #363940;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+
+}
+.card p{
+    font-family: 'Poppins', sans-serif;
+    color: #8B8C8C;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+    box-sizing: border-box;
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .service-section{
+        padding-top: 70px;
+    }
+    .card img{
+        width: 15%;
+        height: 17%;
+        margin-left: 18px;
+        margin-top: 24px;
+    }
+    .card p{
+        line-height: 37px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .service-section{
+        padding-top: 70px;
+    }
+    .card img{
+        width: 15%;
+        height: 17%;
+        margin-left: 18px;
+        margin-top: 24px;
+    }
+    .card p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .service-section{
+        padding-top: 70px;
+    }
+    .card img{
+        width: 13%;
+        height: 13%;
+        margin-left: 18px;
+        margin-top: 24px;
+    }
+    .card p{
+        line-height: 37px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .service-section{
+        padding-top: 90px;
+    }
+    .card img{
+        width: 13%;
+        height: 13%;
+        margin-left: 18px;
+        margin-top: 24px;
+    }
+    .card p{
+        line-height: 30px;
+    }
+    .card h5{
+        font-size: 32px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .card img{
+        width: 16%;
+        height: 16%;
+        margin-left: 18px;
+        margin-top: 24px;
+    }
+    .card p{
+        line-height: 37px;
+    }
+    .card h5{
+        font-size: 30px;
+    }
+}
+/* Service Section End */
+
+
+/* Client Section Start */
+.client-section{
+    background-color: #F2FCFF;
+    width: 100%;
+    box-sizing: border-box;
+}
+.cl-top-section{
+    background: #1282A6;
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    position: relative;
+    box-sizing: border-box;
+
+}
+.cl-top-mid{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+.cl-header{
+    color: #ffffff;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: 0.005em;
+    text-align: center;
+
+}
+.cl-text{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+}
+/* .small{
+    height: 95px;
+    background-color: chocolate;
+    box-sizing: border-box;
+} */
+.number-header{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-top: 5px;
+
+}
+.number-text{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+.cl-test-header{
+    color: #151617;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.card h2{
+    color: #151617;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 28px;
+    
+}
+.card p.card-body{
+    color: #4F4F4F;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+}
+.card{
+    position: relative;
+}
+.down{
+    font-size: 28px;
+    color: #ffffff;
+    position: absolute;
+    bottom: -12px;
+    left: 0px;
+    right: 160px;
+    margin: auto;
+}
+.profile{
+    width: 272px;
+    margin:20px auto;
+}
+.profile-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.profile-header{
+    font-size: 16px;
+}
+.profile-text{
+    font-size: 14px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .cl-top-section{
+        width: 95%;
+        margin: auto;
+    }
+    .cl-top-mid{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .cl-header{
+        font-size: 38px;
+    }
+    .cl-text{
+        font-size: 17px;
+    }
+    .number-header{
+        font-size: 38px;
+    }
+    .number-text{
+        font-size: 17px;
+    }
+    .cl-test-header{
+        font-size: 38px;
+        line-height: 31px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .cl-top-section{
+        width: 95%;
+        margin: auto;
+    }
+    .cl-top-mid{
+        width: 100%;
+        height: 100%;
+    }
+    .cl-header{
+        font-size: 38px;
+        line-height: 64px;
+    }
+    .cl-text{
+        font-size: 17px;
+        line-height: 31px;
+    }
+    .number-header{
+        font-size: 38px;
+    }
+    .number-text{
+        font-size: 17px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .cl-top-mid{
+        width: 80%;
+        height: 100%;
+    }
+    .cl-header{
+        font-size: 38px;
+        line-height: 64px;
+    }
+    .cl-text{
+        font-size: 17px;
+        line-height: 31px;
+    }
+    .number-header{
+        font-size: 38px;
+    }
+    .number-text{
+        font-size: 17px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .cl-top-mid{
+        width: 60%;
+        height: 100%;
+    }
+    .cl-header{
+        font-size: 45px;
+        line-height: 64px;
+    }
+    .cl-text{
+        font-size: 17px;
+        line-height: 31px;
+    }
+    .number-header{
+        font-size: 45px;
+        line-height: 40px;
+    }
+    .number-text{
+        font-size: 17px;
+        line-height: 31px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .cl-top-mid{
+        width: 50%;
+        height: 250px;
+    }
+    .cl-header{
+        font-size: 48px;
+        line-height: 64px;
+
+    }
+    .cl-text{
+        font-size: 18px;
+        line-height: 31px;
+    }
+    .number-header{
+        font-size: 48px;
+        line-height: 40px;
+    }
+    .number-text{
+        font-size: 18px;
+        line-height: 31px;
+    }
+}
+/* Client Section End */
+/* Footer Section Start */
+footer.footer{
+    background: #0F6E8C;
+    padding: 50px 0;
+}
+a.footer-brand{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500f;
+}
+a.footer-brand:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+h1.ft-header{
+    font-family:'Inter', sans-serif;;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+}
+.ft-link a{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 31px;
+}
+.footer-bottom{
+    background: #094B72;
+    padding: 10px 0 0 0;
+}
+.footer-bottom ul{
+}
+.footer-bottom li{
+    display: inline-block;
+    margin-right: 20px;
+    background-color: #0F6E8C;
+    border-radius: 50%;
+    padding: 0 8px;
+}
+.footer-bottom li a{
+    padding: 7px 5px;
+    display: block;
+    color: #ffffff;
+    font-size: 22px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    a.footer-brand{
+        display: block;
+        padding: 0 0 20px 0;
+    }
+    .footer-bottom{
+        background: #094B72;
+        padding: 10px 0 0 0;
+    }
+    .footer-bottom .ftb-text{
+        font-size: 12px;
+    }
+    .footer-bottom li{
+        display: inline-block;
+        margin-right: 2px;
+        background-color: #0F6E8C;
+        border-radius: 50%;
+        padding: 0 7px;
+    }
+    .footer-bottom li a{
+        padding: 6px 3px;
+        display: block;
+        color: #ffffff;
+        font-size: 16px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    a.footer-brand{
+        display: block;
+        padding: 0 0 20px 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+/* Footer Section End */
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
